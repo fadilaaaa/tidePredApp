@@ -37,7 +37,7 @@ export default function Dashboard({navigation}) {
     };
 
     fetch(
-      'https://74ad-125-167-58-197.ap.ngrok.io/' +
+      'https://www.tide.fadila.tech/' +
         'forecast?' +
         new URLSearchParams({
           start: start,

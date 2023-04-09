@@ -4,3 +4,4 @@ export {default as Login} from './Login';
 export {default as InitialScreen} from './InitialScreen';
 export {default as MonitoringSceen} from './MonitoringScreen';
 export {default as HistoriScreen} from './HistoriScreen';
+export {default as SplashScreen} from './SplashScreen';

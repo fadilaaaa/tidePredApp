@@ -10,7 +10,7 @@ import Icon from 'react-native-vector-icons/Octicons';
 
 export default function InitialScreen({ navigation }) {
   React.useEffect(()=>{
-    fetch('https://74ad-125-167-58-197.ap.ngrok.io/getData?')
+    fetch('https://www.tide.fadila.tech/getData?')
   .then(response => response.json())
   .then(commits => console.log(commits))
   },[])

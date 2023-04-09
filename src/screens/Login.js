@@ -26,7 +26,7 @@ export default function Login({navigation}) {
   }
 
   const handleLogin = () => {
-    fetch('https://74ad-125-167-58-197.ap.ngrok.io/user/login', {
+    fetch('https://www.tide.fadila.tech/user/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

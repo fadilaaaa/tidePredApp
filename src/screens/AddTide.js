@@ -18,7 +18,7 @@ export default function AddTide({navigation}) {
   const toast = useToast();
   const handleConfirm = () => {
     console.log(tide);
-    fetch('https://74ad-125-167-58-197.ap.ngrok.io/', {
+    fetch('https://www.tide.fadila.tech/tide', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -30,6 +30,7 @@ export default function AddTide({navigation}) {
     })
       .then(response => response.json())
       .then(json => {
+        console.log(json);
         toast.show({
           title:"Data Berhasil Ditambah"
         })

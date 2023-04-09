@@ -28,7 +28,7 @@ export default function HistoriScreen({navigation}) {
         : parseDate(new Date(param.start));
     console.log(start, end);
     fetch(
-      'https://74ad-125-167-58-197.ap.ngrok.io/getData?' +
+      'https://www.tide.fadila.tech/getData?' +
         new URLSearchParams({
           start: start,
           end: end,
